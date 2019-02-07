@@ -1,4 +1,4 @@
-# Software Architecture Design Assignment - Indrajeet Datta
+# Software Architecture Design Assignment
 
 **Model View Controller** is a software architecture pattern that is used to implement user interfaces. Therefore, it is commonly used to develop web applications. It separates out application logic into three separate sections:
 
