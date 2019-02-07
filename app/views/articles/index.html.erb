@@ -1,25 +1,36 @@
 
-<h1> Quotes for Life </h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<table>
-	<tr>
-		<th> Title </th>
-		<th> Author </th>
-		<th> Text </th>
-		<th> Time-created </th>
-	</tr>
+<div class="jumbotron">
+  <center> <h1 class="display-4"> Quotes for Life </h1> </center>
+  <center> <p class="lead"> Some interesting thoughts about life shared by great philosophers.</p> </center>
+  <hr class="my-4">
+</div>
 
+<div class="container">
 	<% @articles.each do |article| %>
-		<tr>
-			<td><%= article.title %></td>
-			<td><%= article.author %></td>
-			<td><%= article.text %></td>
-			<td><%= article.created_at %></td>
-			<td><%= link_to 'Show', article_path(article) %></td>
-			<td><%= link_to 'Edit', edit_article_path(article) %></td>
-			<td><%= link_to 'Destroy', article_path(article),
-					method: :delete,
-					data: { confirm: 'Are you sure? '} %> </td>
-		</tr>
-	<% end %>
-</table>
+	<table class="table">
+  	<thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Quote</th>
+      <th scope="col">Time-Created</th>
+    </tr>
+  	</thead>
+  	<tbody>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.author %></td>
+      <td><%= article.text %></td>
+      <td><%= article.created_at %></td>
+      <td> <button type="button" class="btn btn-light"> <%= link_to 'Show', article_path(article)%></button></td>
+      <td> <button type="button" class="btn btn-light"> <%= link_to 'Edit', edit_article_path(article)%> </button></td>
+      <td> <button type="button" class="btn btn-light"> <%= link_to 'Destroy', article_path(article)%> </button> </td>
+    </tr>
+  	</tbody>
+	</table>
+<% end %>
+
+<button type="button" class="btn btn-light">  <%= link_to 'New Post', new_article_path  %>
+ </button>
