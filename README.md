@@ -33,7 +33,7 @@ In the web-app we had to define
 * 1 controller with 7 actions
 * 4 view templates
 * 1 Model 
-![alt text](![alt text](https://developer.chrome.com/static/images/mvc.png))
+![alt text](https://drive.google.com/file/d/1u64jIUOLrP3Etv7R_xivk7VLVmOiUjCc/view?usp=sharing)
 ![alt text](https://developer.chrome.com/static/images/mvc.png)
 ![alt text](https://developer.chrome.com/static/images/mvc.png)
 ![alt text](https://developer.chrome.com/static/images/mvc.png)
