@@ -1,6 +1,6 @@
 # Software Architecture Design Assignment
 
-# Team Members
+## Team Members
 * **Indrajeet Datta** st120644
 * **Jithendra Prasad** st120688
 * **Greeshma Ravula** st120681
