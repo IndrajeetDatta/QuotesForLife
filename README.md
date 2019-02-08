@@ -41,4 +41,8 @@ In the web-app we had to define
 
 * **Views** 
  Index View
-![view](https://i.imgur.com/WlkZ97U.png)
+ ![view](https://i.imgur.com/fJZVFoR.png)
+ ![view](https://i.imgur.com/WlkZ97U.png)
+ 
+ Final Homepage in the browser
+  ![home]( https://i.imgur.com/2ramnkh.png)
