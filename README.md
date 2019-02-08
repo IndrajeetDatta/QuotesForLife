@@ -1,9 +1,9 @@
 # Software Architecture Design Assignment
 
 # Team Members
-* ** Indrajeet Datta ** st120644
-* ** Jithendra Prasad ** st120688
-* ** Greeshma Ravula ** st120681
+* **Indrajeet Datta** st120644
+* **Jithendra Prasad** st120688
+* **Greeshma Ravula** st120681
 **Model View Controller** is a software architecture pattern that is used to implement user interfaces. Therefore, it is commonly used to develop web applications. It separates out application logic into three separate sections:
 
 
