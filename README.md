@@ -17,6 +17,8 @@
 
 * **Routers** map HTTP requests from the browser to a Controller#action via the HTTP verb (GET, POST, PUT, DELETE) and the URI of the HTTP request.
 
+![mvc](https://www.javacodegeeks.com/wp-content/uploads/2017/09/mvc.png)
+
 We created a simple web-application call "Quotes for Life" in which the users` can share interesting phylosophical quotes in our web-application.
 
 Our application supports all CRUD operations. i.e
@@ -28,20 +30,15 @@ Our application supports all CRUD operations. i.e
  
 
 In the web-app we had to define 
+* 7 Routes
 * 1 controller with 7 actions
 * 4 view templates
 * 1 Model 
-First, we had to configure the Rails router in (config/routes.rb). Rails has a `resources` method which can be used to declare a standard REST resource:
 
-So our *routes.rb* file looks like this
+* **Controller** (articles_controller.rb)
+![mvc](https://i.imgur.com/hQUF05F.png)
+![mvc](https://i.imgur.com/ZvAE2qD.png)
 
-`Rails.application.routes.draw do
-  resources :articles
-  root "articles#index"
-end`
-
-Then, we entered `$ rake routes` in the Terminal and we can see the 7 routes generated:
-#index, #create, #new, #edit, #show, update, #destroy
-
-Then, we generated the controller by using the command
-`$rails generate controller Articles`
+* **Views** 
+![mvc](https://imgur.com/a/cECINhy)
+![mvc](https://i.imgur.com/WlkZ97U.png)
