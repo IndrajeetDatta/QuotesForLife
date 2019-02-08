@@ -11,3 +11,11 @@
 * **Views** is the presentation layer which is what the user sees. This displays the output, usually HTML.
 
 * **Routers** map HTTP requests from the browser to a Controller#action via the HTTP verb (GET, POST, PUT, DELETE) and the URI of the HTTP request.
+
+We created a simple web-application call "Quotes for Life" in which the users` can share interesting phylosophical quotes in our web-application.
+
+Our application supports all CRUD operations. i.e
+ * **Create**
+ * **Read**
+ * **Update**
+ * **Delete**
