@@ -5,7 +5,7 @@
 * **Jithendra Prasad** st120688
 * **Greeshma Ravula** st120681
 
-* **Model View Controller** is a software architecture pattern that is used to implement user interfaces.  It separates out application logic into three separate sections:
+**Model View Controller** is a software architecture pattern that is used to implement user interfaces.  It separates out application logic into three separate sections:
 
 
 
