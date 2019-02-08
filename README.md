@@ -26,17 +26,13 @@ Our application supports all CRUD operations. i.e
  * **Delete**
  
  
- 
-![alt text](https://developer.chrome.com/static/images/mvc.png)
 
 In the web-app we had to define 
 * 1 controller with 7 actions
 * 4 view templates
 * 1 Model 
-![alt text](https://drive.google.com/file/d/1u64jIUOLrP3Etv7R_xivk7VLVmOiUjCc/view?usp=sharing)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
-![alt text](https://developer.chrome.com/static/images/mvc.png)
+`Rails.application.routes.draw do
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :articles
+  root "articles#index"
+end`
