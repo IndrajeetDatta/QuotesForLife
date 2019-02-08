@@ -31,8 +31,17 @@ In the web-app we had to define
 * 1 controller with 7 actions
 * 4 view templates
 * 1 Model 
+First, we had to configure the Rails router in (config/routes.rb). Rails has a `resources` method which can be used to declare a standard REST resource:
+
+So our *routes.rb* file looks like this
+
 `Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :articles
   root "articles#index"
 end`
+
+Then, we entered `$ rake routes` in the Terminal and we can see the 7 routes generated:
+#index, #create, #new, #edit, #show, update, #destroy
+
+Then, we generated the controller by using the command
+`$rails generate controller Articles`
