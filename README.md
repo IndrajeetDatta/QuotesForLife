@@ -28,3 +28,15 @@ Our application supports all CRUD operations. i.e
  
  
 ![alt text](https://developer.chrome.com/static/images/mvc.png)
+
+In the web-app we had to define 
+* 1 controller with 7 actions
+* 4 view templates
+* 1 Model 
+![alt text](![alt text](https://developer.chrome.com/static/images/mvc.png))
+![alt text](https://developer.chrome.com/static/images/mvc.png)
+![alt text](https://developer.chrome.com/static/images/mvc.png)
+![alt text](https://developer.chrome.com/static/images/mvc.png)
+![alt text](https://developer.chrome.com/static/images/mvc.png)
+![alt text](https://developer.chrome.com/static/images/mvc.png)
+![alt text](https://developer.chrome.com/static/images/mvc.png)
